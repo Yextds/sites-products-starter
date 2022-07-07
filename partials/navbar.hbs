@@ -1,6 +1,6 @@
 <div class="topnav">
     <div class="flex flex-wrap py-7 items-center justify-between">
-        <a href="/">
+        <a href="{{global.baseUrl}}">
             <div class="inline-flex items-center gap-x-3">
                 <img src="{{global.baseUrl}}/images/yext-logo.svg" height="56" width="56" class="">
                 <h2 class="md:pl-5 text-xl cursor-pointer">
@@ -9,8 +9,8 @@
             </div>
         </a>
         <div class="hidden md:flex grid gap-x-10">
-            <a href="/" class="headerLink hover:underline ">Home</a>
-            <a href="/about.html" class="headerLink hover:underline ">About</a>
+            <a href="{{global.baseUrl}}" class="headerLink hover:underline ">Home</a>
+            <a href="{{global.baseUrl}}about.html" class="headerLink hover:underline ">About</a>
             <a href="#" class="headerLink hover:underline ">Blog</a>
         </div>
 
@@ -41,8 +41,8 @@
     </div>
 
     <div class="links-mobile-view px-5 py-3 bg-white text-black justify-end" id="myLinks">
-        <div><a href="/" class="headerLink hover:underline ">Home</a></div>
-        <div><a href="/about" class="headerLink hover:underline ">About</a></div>
+        <div><a href="{{global.baseUrl}}" class="headerLink hover:underline ">Home</a></div>
+        <div><a href="{{global.baseUrl}}about" class="headerLink hover:underline ">About</a></div>
         <div><a href="#" class="headerLink hover:underline ">Blog</a></div>        
     </div>
 </div>
